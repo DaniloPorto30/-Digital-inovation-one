@@ -1,0 +1,52 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+ .logo {
+  max-height: 52px;
+margin-right: 20px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+@media screen and (max-width:500px){
+.logo{
+  margin-right: 7px;
+  margin-left: -5px;
+}
+span{
+  font-size: 19px;
+}
+
+}
+
+@media screen and (max-width:380px){
+  .logo{
+    margin-right: 7px;
+    margin-left: 18px;
+
+  }
+  span{
+    font-size: 19px;
+    text-align: center;
+  }
+
+  }
+  @media screen and (max-width:380px){
+    .logo{
+      margin-right: 7px;
+      margin-left: 18px;
+
+    }
+    span{
+      font-size: 19px;
+      text-align: center;
+    }
+
+    }
