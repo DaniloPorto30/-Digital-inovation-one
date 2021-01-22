@@ -18,35 +18,32 @@ margin-right: 20px;
 @media screen and (max-width:500px){
 .logo{
   margin-right: 7px;
-  margin-left: -5px;
+  margin-left: 15px;
 }
 span{
-  font-size: 19px;
+  font-size: 22px;
 }
 
 }
-
-@media screen and (max-width:380px){
-  .logo{
-    margin-right: 7px;
-    margin-left: 18px;
-
-  }
-  span{
-    font-size: 19px;
-    text-align: center;
-  }
-
-  }
   @media screen and (max-width:380px){
     .logo{
       margin-right: 7px;
-      margin-left: 18px;
+      margin-left: 9px;
 
     }
     span{
       font-size: 19px;
       text-align: center;
     }
-
     }
+    @media screen and (max-width:320px){
+      .logo{
+        margin-right: 7px;
+        margin-left: 9px;
+
+      }
+      span{
+        font-size: 17px;
+        text-align: center;
+      }
+      }
