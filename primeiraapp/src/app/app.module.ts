@@ -14,12 +14,18 @@ import {MatCardModule} from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButtonModule} from '@angular/material/button';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { MeustepperComponent } from './Frontend/template/meustepper/meustepper.component';
+import {MatStepperModule} from '@angular/material/stepper';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    MeustepperComponent
+    
 
   ],
   imports: [
@@ -31,10 +37,18 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatCardModule,
     FlexLayoutModule,
     MatFormFieldModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule,
+    MatProgressBarModule,
+    MatStepperModule
+
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+
+
+ }

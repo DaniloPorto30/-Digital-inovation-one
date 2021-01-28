@@ -1,0 +1,21 @@
+mat-stepper-horizontal {
+  margin-top: 8px;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+.container-fluid img{
+  max-height: 26em;
+  max-width: 32em;
+ padding:2em;
+ padding-bottom: 4em;
+}
+
+.container-fluid{
+ height: 27em;
+ width: 24em; 
+ display:inline;
+ padding:2em;
+justify-content: center;
+  }
