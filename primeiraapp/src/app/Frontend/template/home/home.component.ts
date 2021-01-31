@@ -15,7 +15,7 @@ export class HomeComponent {
   mySource4: string = 'assets/img/rafael.png';
   inativo : boolean = true;
 
-  
+
   botaoPhoto(){
   this.mySource = "assets/img/avanade.png"
   this.nome = 'Sou Full-Stack Developer na Avanade, nasci em 1993 (taurina raiz) e me formei em Ciência da Computação.Amo ler, ver filmes, animes e séries.'
@@ -36,4 +36,5 @@ botaoPhoto4(){
   this.inativo = false;
   }
 }
+
 

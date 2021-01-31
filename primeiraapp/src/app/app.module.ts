@@ -18,6 +18,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MeustepperComponent } from './Frontend/template/meustepper/meustepper.component';
 import {MatStepperModule} from '@angular/material/stepper';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,7 @@ import {MatStepperModule} from '@angular/material/stepper';
     FooterComponent,
     HeaderComponent,
     MeustepperComponent
-    
+
 
   ],
   imports: [

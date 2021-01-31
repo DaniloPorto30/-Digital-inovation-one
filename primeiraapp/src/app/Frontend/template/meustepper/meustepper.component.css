@@ -1,4 +1,6 @@
 mat-stepper-horizontal {
+  background: linear-gradient(to right,#ee8742,#ca281d,#f3ef1e);
+
   margin-top: 8px;
 }
 
@@ -11,10 +13,13 @@ mat-stepper-horizontal {
  padding:2em;
  padding-bottom: 4em;
 }
-
+ .container-fluid h3{
+   font-size: 34px;
+   color:rgb(255, 115, 0);
+ }
 .container-fluid{
  height: 27em;
- width: 24em; 
+ width: 24em;
  display:inline;
  padding:2em;
 justify-content: center;
