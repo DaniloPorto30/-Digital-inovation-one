@@ -9,14 +9,15 @@
 .container-fluid{
   display: flex;
   background: linear-gradient(to right,#ee8742,#ca281d,#f3ef1e);
-  padding-bottom: 170px;
+  padding-bottom: 390px;
+  max-height: 420em;
 }
 .img1{
  max-height: 85%;
  padding-bottom: 20px;
 }
 .img2{
-  max-height: 100%;
+  height: 85%;
   padding-bottom: 30px;
 }
 .coracao{
@@ -42,6 +43,7 @@
   font-size: 1.4em;
   color: rgb(15, 15, 15);
 }
+
 mat-progress-bar{
   color: orangered;
   background-color: orangered;

@@ -22,7 +22,7 @@ export class HomeComponent {
 }
 botaoPhoto2(){
   this.mySource2 = "assets/img/dio.jpg"
-  this.nome2 = 'CEO & Founder na Digital Innovation One Inc.Estamos ajudando empresas a contratar os melhores talentos e pessoas em tecnologia para transformar suas carreiras profissionais para uma vida melhor.Digital Innovation One é uma plataforma pioneira de educação gratuita para desenvolvedores de software que identificam os melhores talentos da nossa comunidade para se conectar com as oportunidades de trabalho de nossos clientes, gerando transformação social por renda, inclusão, diversidade e transformação econômica.'
+  this.nome2 = 'CEO & Founder na Digital Innovation One Inc.Estamos ajudando empresas a contratar os melhores talentos e pessoas em tecnologia para transformar suas carreiras profissionais para uma vida melhor.'
 }
 botaoPhoto3(){
   this.mySource3 = "assets/img/avanade.png"
