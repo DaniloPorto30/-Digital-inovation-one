@@ -26,7 +26,7 @@ botaoPhoto2(){
 }
 botaoPhoto3(){
   this.mySource3 = "assets/img/avanade.png"
-  this.nome3 = 'alent Acquisition Analyst - Avanade, Como parte da equipe da Avanade, estou sempre procurando pessoas talentosas que desenvolvam soluções de TI personalizadas para clientes corporativos.'
+  this.nome3 = 'Talent Acquisition Analyst - Avanade, Como parte da equipe da Avanade, estou sempre procurando pessoas talentosas que desenvolvam soluções de TI personalizadas para clientes corporativos.'
 }
 botaoPhoto4(){
   this.mySource4 = "assets/img/avanade.png"

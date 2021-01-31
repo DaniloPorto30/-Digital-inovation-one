@@ -12,13 +12,14 @@
   padding-bottom: 390px;
   max-height: 420em;
 }
+
 .img1{
  max-height: 85%;
  padding-bottom: 20px;
 }
 .img2{
   height: 85%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .coracao{
   position: absolute;
@@ -38,6 +39,7 @@
  }
 #fav{
   color:rgb(110, 26, 173);
+  font-size: 31px;
 }
 .cah{
   font-size: 1.4em;
