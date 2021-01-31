@@ -1,3 +1,7 @@
+<mat-progress-bar value="100"></mat-progress-bar>
+
+<mat-progress-bar mode="buffer"></mat-progress-bar>
+
 <mat-horizontal-stepper class= "container-fluid">
   <mat-step label="Primeira Etapa" state="phone">
     <h3>BootCamp Dio.</h3>
@@ -27,5 +31,7 @@
   <ng-template matStepperIcon="chat">
     <mat-icon>forum</mat-icon>
   </ng-template>
-  <router-outlet></router-outlet>
+
 </mat-horizontal-stepper>
+<router-outlet>
+</router-outlet>

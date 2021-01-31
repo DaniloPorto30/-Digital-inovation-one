@@ -24,3 +24,7 @@ mat-stepper-horizontal {
  padding:2em;
 justify-content: center;
   }
+  mat-progress-bar{
+    color: orangered;
+    background-color: orangered;
+  }

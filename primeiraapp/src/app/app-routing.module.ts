@@ -1,3 +1,4 @@
+import { AboutComponent } from './Frontend/template/about/about.component';
 import { HomeComponent } from './Frontend/template/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -9,8 +10,16 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path:'../app/Frontend/template/meustepper',
+    path:'home',
+    component: HomeComponent
+  },
+  {
+    path:'meustepper',
     component: MeustepperComponent
+  },
+  {
+    path:'about',
+    component: AboutComponent
   },
 ];
 
