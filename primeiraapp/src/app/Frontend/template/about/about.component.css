@@ -11,9 +11,12 @@ justify-content: center;
   background: linear-gradient(to right,#ee8742,#ca281d,#f3ef1e);
   padding-bottom: 390px;
   max-height: 420em;
-  justify-content: center;
+  justify-content: space-around;
 }
-
+.cod{
+  height: 13em;
+  width: 13em;
+}
 .img1{
  max-height: 95%;
  padding-bottom: 20px;
