@@ -3,7 +3,10 @@ mat-stepper-horizontal {
 
   margin-top: 8px;
 }
-
+.cod {
+  height: 13em;
+  width: 13em;
+}
 .mat-form-field {
   margin-top: 16px;
 }

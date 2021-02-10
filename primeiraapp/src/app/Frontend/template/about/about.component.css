@@ -1,35 +1,37 @@
-.example-card{
+.example-card {
   height: 27em;
   width: 24em;
- display:inline-block;
- padding:2em;
-justify-content: center;
- margin-left: 1em;
+  display: inline-block;
+  padding: 2em;
+  justify-content: center;
+  margin-left: 1em;
 }
-.container-fluid{
+.container-fluid {
   display: flex;
-  background: linear-gradient(to right,#ee8742,#ca281d,#f3ef1e);
+  background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
   padding-bottom: 390px;
   max-height: 420em;
   justify-content: space-around;
 }
-.cod{
+.cod {
   height: 13em;
   width: 13em;
 }
-.img1{
- max-height: 95%;
- padding-bottom: 20px;
- width: 95%;
- margin-left: 0.5em;
+.img1 {
+  max-height: 95%;
+  padding-bottom: 20px;
+  width: 95%;
+  margin-left: 0.5em;
 }
-button{
-margin-left: 5px;
-font-size: 34px;
+#pdf{
+  background-color: aliceblue;
+}
+button {
+  margin-left: 5px;
+  font-size: 34px;
 }
 
-
-mat-progress-bar{
+mat-progress-bar {
   color: orangered;
   background-color: orangered;
 }

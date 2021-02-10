@@ -1,107 +1,107 @@
-.example-card{
+.example-card {
   height: 27em;
   width: 24em;
- display:inline-block;
- padding:2em;
+  display: inline-block;
+  padding: 2em;
 
- margin-left: 1em;
+  margin-left: 1em;
 }
-.container-fluid{
+.container-fluid {
   display: flex;
-  background: linear-gradient(to right,#ee8742,#ca281d,#f3ef1e);
+  background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
   padding-bottom: 390px;
   max-height: 420em;
 }
 
-.img1{
- max-height: 85%;
- padding-bottom: 20px;
-}
-.img2{
-  height: 85%;
+.img1 {
+  max-height: 85%;
   padding-bottom: 20px;
 }
-.coracao{
+.img2 {
+  height: 85%;
+  padding-bottom: 22px;
+}
+.coracao {
   position: absolute;
   flex: 1 1 auto;
- color: indigo;
-
+  color: indigo;
 }
-.photo1 #one{
- background-color: blueviolet;
- color: white;
- font-size: 28px;
+.photo1 #one {
+  background-color: blueviolet;
+  color: white;
+  font-size: 28px;
 }
-.photo1 #like1{
+.photo1 #like1 {
   background-color: white;
   color: indigo;
   font-size: 28px;
- }
-#fav{
-  color:rgb(110, 26, 173);
-  font-size: 31px;
 }
-.cah{
+.fav {
+  color: rgb(110, 26, 173);
+  font-size: 31px;
+  height: 34px;
+  width: 40px;
+  padding-top: 20px;
+}
+.cah {
   font-size: 1.4em;
   color: rgb(15, 15, 15);
 }
 
-mat-progress-bar{
+mat-progress-bar {
   color: orangered;
   background-color: orangered;
 }
-@media screen and (max-width:500px){
-.example-card{
-   display:inline-block;
-   padding:1em;
-   margin-left: -0.4em;
-   margin-bottom: 10px;
-   width: 100%;
-   height:100%;
+@media screen and (max-width: 500px) {
+  .example-card {
+    display: inline-block;
+    padding: 1em;
+    margin-left: -0.4em;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
   }
-  #foto1{
+  #foto1 {
     width: 100%;
     height: 100%;
     margin-left: 2px;
     padding-bottom: 0px;
   }
-  .container-fluid{
- padding:0px;
- width: 25.7em;
- flex-wrap: wrap;
-display: flex;
-width: 100%;
+  .container-fluid {
+    padding: 0px;
+    width: 25.7em;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
   }
-  .barra{
+  .barra {
     height: 50px;
   }
 }
 
-@media screen and (max-width:360px){
-  .example-card{
-     display:inline-block;
-     padding:1em;
-     margin-left: -0.2em;
-     margin-bottom: 10px;
-     width: 100%;
-    }
-    #foto1{
-      width: 100%;
-      margin-left: 2px;
-      flex-wrap:nowrap;
-      padding-bottom: 20px;
-    }
-
-    .container-fluid{
-   padding:0px;
-   width: 25.7em;
-   flex-wrap: wrap;
-  display: flex;
-  width: 100%;
-    }
-    .barra{
-      height: 50px;
-    }
+@media screen and (max-width: 360px) {
+  .example-card {
+    display: inline-block;
+    padding: 1em;
+    margin-left: -0.2em;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  #foto1 {
+    width: 100%;
+    margin-left: 2px;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
   }
 
-
+  .container-fluid {
+    padding: 0px;
+    width: 25.7em;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+  }
+  .barra {
+    height: 50px;
+  }
+}

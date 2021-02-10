@@ -8,12 +8,12 @@
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Camila Ferreira Ribeiro</mat-card-title>
       <mat-card-subtitle>cahferreira</mat-card-subtitle>
-      <button class="coracao" mat-icon-button disabled aria-label="Example icon-button with a heart icon">
-        <mat-icon id="fav">favorite</mat-icon>
+      <button class="coracao" mat-icon-button>
+        <img class="fav" mat-card-image [src]="favorite" alt="coracao1">
       </button>
     </mat-card-header>
 
-    <img class="img1" mat-card-image [src]="mySource" alt="1" id="foto1">
+    <img class="img1" mat-card-image [src]="mySource" alt="fotocamila">
 
     <mat-card-content class="cah">
       <h1>{{nome}}</h1>
@@ -22,7 +22,7 @@
       <button id="one" mat-button (click)="botaoPhoto()">
         Quem Sou!?
       </button>
-      <button id="like1" mat-button [disabled]="inativo">like
+      <button id="like1" mat-button (click)="botaoLike()">like
       </button>
     </mat-card-actions>
     <div id="test"></div>
@@ -35,11 +35,11 @@
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Iglá Generoso</mat-card-title>
       <mat-card-subtitle>Iglá</mat-card-subtitle>
-      <button class="coracao" mat-icon-button disabled aria-label="Example icon-button with a heart icon">
-        <mat-icon id="fav">favorite</mat-icon>
+      <button class="coracao" mat-icon-button>
+        <img class="fav" mat-card-image [src]="favorite2" alt="coracao2">
       </button>
     </mat-card-header>
-    <img class="img2" mat-card-image [src]="mySource2" id="foto1">
+    <img class="img2" mat-card-image [src]="mySource2" id="camilafoto2">
     <mat-card-content class="cah">
       <h1>{{nome2}}</h1>
     </mat-card-content>
@@ -47,7 +47,7 @@
       <button id="one" mat-button (click)="botaoPhoto2()">
         Quem Sou!?
       </button>
-      <button id="like1" mat-button (click)="botaoLike()">like
+      <button id="like1" mat-button (click)="botaoLike2()">like
       </button>
     </mat-card-actions>
     <div id="test"></div>
@@ -60,12 +60,12 @@
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Arnaldo Dos Santos Junior</mat-card-title>
       <mat-card-subtitle>arnaldo-junior</mat-card-subtitle>
-      <button class="coracao" mat-icon-button disabled aria-label="Example icon-button with a heart icon">
-        <mat-icon id="fav">favorite</mat-icon>
+      <button class="coracao" mat-icon-button>
+        <img class="fav" mat-card-image [src]="favorite3" alt="coracao3">
       </button>
     </mat-card-header>
 
-    <img class="img1" mat-card-image [src]="mySource3" id="foto1">
+    <img class="img1" mat-card-image [src]="mySource3" alt="Arnaldofoto">
 
     <mat-card-content class="cah">
       <h1>{{nome3}}</h1>
@@ -74,7 +74,7 @@
       <button id="one" mat-button (click)="botaoPhoto3()">
         Quem Sou!?
       </button>
-      <button id="like1" mat-button (click)="botaoLike()">like
+      <button id="like1" mat-button (click)="botaoLike3()">like
       </button>
     </mat-card-actions>
     <div id="test"></div>
@@ -87,12 +87,12 @@
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Rafael Orofino</mat-card-title>
       <mat-card-subtitle>Orofino</mat-card-subtitle>
-      <button class="coracao" mat-icon-button disabled aria-label="Example icon-button with a heart icon">
-        <mat-icon id="fav">favorite</mat-icon>
+      <button class="coracao" mat-icon-button>
+        <img class="fav" mat-card-image [src]="favorite4" alt="coracao4">
       </button>
     </mat-card-header>
 
-    <img class="img1" mat-card-image [src]="mySource4" id="foto1">
+    <img class="img1" mat-card-image [src]="mySource4" alt="Rafaelfoto">
 
     <mat-card-content class="cah">
       <h1>{{nome4}}</h1>
@@ -101,7 +101,7 @@
       <button id="one" mat-button (click)="botaoPhoto4()">
         Quem Sou!?
       </button>
-      <button id="like1" mat-button (click)="botaoLike()">like
+      <button id="like1" mat-button (click)="botaoLike4()">like
       </button>
     </mat-card-actions>
     <div id="test"></div>
