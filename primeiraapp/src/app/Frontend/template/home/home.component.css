@@ -14,13 +14,10 @@
 }
 
 .img1 {
-  max-height: 85%;
+  max-height: 80%;
   padding-bottom: 20px;
 }
-.img2 {
-  height: 85%;
-  padding-bottom: 22px;
-}
+
 .coracao {
   position: absolute;
   flex: 1 1 auto;
@@ -52,6 +49,7 @@ mat-progress-bar {
   color: orangered;
   background-color: orangered;
 }
+
 @media screen and (max-width: 500px) {
   .example-card {
     display: inline-block;
@@ -60,12 +58,6 @@ mat-progress-bar {
     margin-bottom: 10px;
     width: 100%;
     height: 100%;
-  }
-  #foto1 {
-    width: 100%;
-    height: 100%;
-    margin-left: 2px;
-    padding-bottom: 0px;
   }
   .container-fluid {
     padding: 0px;
@@ -79,6 +71,8 @@ mat-progress-bar {
   }
 }
 
+
+
 @media screen and (max-width: 360px) {
   .example-card {
     display: inline-block;
@@ -86,12 +80,6 @@ mat-progress-bar {
     margin-left: -0.2em;
     margin-bottom: 10px;
     width: 100%;
-  }
-  #foto1 {
-    width: 100%;
-    margin-left: 2px;
-    flex-wrap: nowrap;
-    padding-bottom: 20px;
   }
 
   .container-fluid {

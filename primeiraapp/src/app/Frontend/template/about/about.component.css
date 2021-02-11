@@ -35,3 +35,13 @@ mat-progress-bar {
   color: orangered;
   background-color: orangered;
 }
+.redesocia1{
+  display: inline;
+  justify-content:center;
+  flex:wrap;
+  padding:15px;
+  margin-left:10px;
+}
+.face{
+  
+}
