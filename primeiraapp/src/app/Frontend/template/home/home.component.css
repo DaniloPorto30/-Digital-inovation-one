@@ -17,11 +17,14 @@
   max-height: 80%;
   padding-bottom: 20px;
 }
-
+mat-card-title,mat-card-subtitle{
+  margin-left: 30px;
+}
 .coracao {
   position: absolute;
   flex: 1 1 auto;
   color: indigo;
+  padding-right: 50px;
 }
 .photo1 #one {
   background-color: blueviolet;
@@ -59,6 +62,11 @@ mat-progress-bar {
     width: 100%;
     height: 100%;
   }
+  .photo1{
+    padding-top: -150px;
+    text-align: center;
+    margin-top: -50px;
+  }
   .container-fluid {
     padding: 0px;
     width: 25.7em;
@@ -66,13 +74,17 @@ mat-progress-bar {
     display: flex;
     width: 100%;
   }
+
   .barra {
     height: 50px;
   }
+  .cah{
+    padding-bottom: 10px;
+  }
+  mat-card-title, mat-card-subtitle, .coracao{
+    padding-left: 30px;
+  }
 }
-
-
-
 @media screen and (max-width: 360px) {
   .example-card {
     display: inline-block;
@@ -80,8 +92,13 @@ mat-progress-bar {
     margin-left: -0.2em;
     margin-bottom: 10px;
     width: 100%;
+    max-height: 100%;
   }
-
+  .photo1{
+    padding-top: -150px;
+    text-align: center;
+    margin-top: -50px;
+  }
   .container-fluid {
     padding: 0px;
     width: 25.7em;
@@ -92,4 +109,12 @@ mat-progress-bar {
   .barra {
     height: 50px;
   }
+  .cah{
+    padding-bottom: 10px;
+  }
+  mat-card-title, mat-card-subtitle, .coracao{
+    padding-left: 30px;
+  }
+
 }
+

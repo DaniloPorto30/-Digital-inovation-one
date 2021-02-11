@@ -70,3 +70,13 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 280px) {
+  .menu button {
+    background-color: blueviolet;
+    margin: 3px;
+    font-size: 13px;
+  }
+  span {
+    font-size: 14px;
+  }
+}
