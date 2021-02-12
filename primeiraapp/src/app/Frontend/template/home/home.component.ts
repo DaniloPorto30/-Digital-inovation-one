@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['../home/home.component.css'],
 })
 export class HomeComponent {
-  nome:  boolean = false;
-  nome2:  boolean = false;
-  nome3:  boolean = false;
-  nome4:  boolean = false;
+  nome : string = "";
+  nome2 : string = "";
+  nome3 : string = "";
+  nome4 : string = "";
   mySource: boolean = false;
   mySource2: boolean = false;
   mySource3: boolean = false;
@@ -28,23 +28,20 @@ export class HomeComponent {
 
   onBotaoPhoto() {
    this.mySource = !this.mySource;
-   this.nome = !this.nome;
+   this.nome = "Full Stack";
   }
 
-  botaoPhoto2() {
+  onBotaoPhoto2() {
     this.mySource2 = !this.mySource2;
-    this.nome2 = !this.nome2;
-    //'CEO & Founder na Digital Innovation One Inc.Estamos ajudando empresas a contratar os melhores talentos e pessoas em tecnologia para transformar suas carreiras profissionais para uma vida melhor.';
+    this.nome2 = 'CEO & Founder na Digital Innovation One Inc.Estamos ajudando empresas a contratar os melhores talentos e pessoas em tecnologia para transformar suas carreiras profissionais para uma vida melhor.';
   }
-  botaoPhoto3() {
+  onBotaoPhoto3() {
     this.mySource3 = !this.mySource3;
-    this.nome3 = !this.nome3;
-      //'Talent Acquisition Analyst - Avanade, Como parte da equipe da Avanade, estou sempre procurando pessoas talentosas que desenvolvam soluções de TI personalizadas para clientes corporativos.';
+    this.nome3 = 'Talent Acquisition Analyst - Avanade, Como parte da equipe da Avanade, estou sempre procurando pessoas talentosas que desenvolvam soluções de TI personalizadas para clientes corporativos.';
   }
-  botaoPhoto4() {
+  onBotaoPhoto4() {
     this.mySource4 = !this.mySource4;
-    this.nome4 = !this.nome4;
-    // 'Director na Avanade';
+    this.nome4 = 'Director na Avanade';
   }
   botaoLike() {
     this.favorite = 'assets/img/black.png';

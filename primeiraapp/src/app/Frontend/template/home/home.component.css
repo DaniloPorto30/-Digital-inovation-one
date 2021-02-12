@@ -1,28 +1,45 @@
 .example-card {
-  height: 30em;
-  width: 22em;
+  height: 28em;
+  width: 23em;
   display: inline-block;
   padding: 2em;
-
-  margin-left: 1em;
+  
 }
 .container-fluid {
   display: flex;
   background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
   padding-bottom: 390px;
   max-height: 420em;
+  justify-content:space-between;
 }
-.camila{
-  max-width: 100%;
-}
-.camila>img{
-  max-height: 22em;
-  width: 22em;
-  padding: 0px;
-}
-.camila>#fotoigla{
-  height: 28em;
-}
+.foto>img{
+  width: 24em;
+  height: 25em;
+  }
+  .texto , .foto{
+  display:grid;
+  justify-content: center;
+  text-align: center;
+  }
+  #one{
+  background-color: blueviolet;
+  color: white;
+  font-size: 28px;
+  margin-top: 1em;
+  }
+  #like1 {
+    background-color: white;
+    color: indigo;
+    font-size: 28px;
+  }
+  .foto>a{
+  padding-top: 2em;
+  color:red;
+  background-color: chartreuse;
+  padding:5px;
+  margin-top: 1.2em;
+  }
+
 .img1 {
   max-height: 80%;
   padding-bottom: 20px;
@@ -36,16 +53,7 @@ mat-card-title,mat-card-subtitle{
   color: indigo;
   padding-right: 50px;
 }
-.photo1 #one {
-  background-color: blueviolet;
-  color: white;
-  font-size: 28px;
-}
-.photo1 #like1 {
-  background-color: white;
-  color: indigo;
-  font-size: 28px;
-}
+
 .fav {
   color: rgb(110, 26, 173);
   font-size: 31px;
