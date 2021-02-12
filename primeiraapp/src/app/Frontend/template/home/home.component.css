@@ -3,7 +3,7 @@
   width: 23em;
   display: inline-block;
   padding: 2em;
-  
+
 }
 .container-fluid {
   display: flex;
@@ -13,7 +13,7 @@
   justify-content:space-between;
 }
 .foto>img{
-  width: 24em;
+  width: 25em;
   height: 25em;
   }
   .texto , .foto{
