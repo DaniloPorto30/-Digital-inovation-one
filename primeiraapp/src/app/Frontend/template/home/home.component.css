@@ -1,6 +1,6 @@
 .example-card {
-  height: 27em;
-  width: 24em;
+  height: 30em;
+  width: 22em;
   display: inline-block;
   padding: 2em;
 
@@ -12,7 +12,17 @@
   padding-bottom: 390px;
   max-height: 420em;
 }
-
+.camila{
+  max-width: 100%;
+}
+.camila>img{
+  max-height: 22em;
+  width: 22em;
+  padding: 0px;
+}
+.camila>#fotoigla{
+  height: 28em;
+}
 .img1 {
   max-height: 80%;
   padding-bottom: 20px;
@@ -56,7 +66,7 @@ mat-progress-bar {
 @media screen and (max-width: 500px) {
   .example-card {
     display: inline-block;
-    padding: 1em;
+    padding: 2em;
     margin-left: -0.4em;
     margin-bottom: 10px;
     width: 100%;
@@ -81,11 +91,21 @@ mat-progress-bar {
   .cah{
     padding-bottom: 10px;
   }
+  .camila{
+    max-width: 100%;
+  }
+  .camila>img{
+    max-height: 25em;
+    max-width: 32em;
+    padding: 0px;
+    margin-left: 2.3em;
+  }
   mat-card-title, mat-card-subtitle, .coracao{
     padding-left: 30px;
   }
+
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .example-card {
     display: inline-block;
     padding: 1em;
@@ -101,13 +121,22 @@ mat-progress-bar {
   }
   .container-fluid {
     padding: 0px;
-    width: 25.7em;
+    max-width: 25.7em;
     flex-wrap: wrap;
     display: flex;
     width: 100%;
   }
   .barra {
     height: 50px;
+  }
+  .camila{
+    max-width: 100%;
+  }
+  .camila>img{
+    max-height: 22em;
+    max-width: 30em;
+    padding: 0px;
+    margin-left: 1.1em;
   }
   .cah{
     padding-bottom: 10px;

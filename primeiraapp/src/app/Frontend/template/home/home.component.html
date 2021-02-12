@@ -11,19 +11,28 @@
         <img class="fav" mat-card-image [src]="favorite" alt="coracao1">
       </button>
     </mat-card-header>
-
-    <img class="img1" mat-card-image [src]="mySource" alt="fotocamila">
-
-    <mat-card-content class="cah">
+     <div class="camila" *ngIf= "mySource">
+      <img src="{{avanade}}">
+     </div>
+     <div class="camila" *ngIf= "!mySource">
+      <img id="fotocamila"src="{{camila}}">
+   </div>
+  <mat-card-content class="cah">
       <h1>{{nome}}</h1>
     </mat-card-content>
     <mat-card-actions class="photo1">
-      <button id="one" mat-button (click)="botaoPhoto()">
+      <button id="one" mat-button (click)="onBotaoPhoto()">
         Quem Sou!?
       </button>
+
       <button id="like1" mat-button (click)="botaoLike()">
         like
       </button>
+      <div *ngIf= "nome">
+        oi!
+     </div>
+     <div *ngIf= "!nome">
+     </div>
     </mat-card-actions>
     <div id="test"></div>
   </mat-card>
@@ -39,7 +48,12 @@
       </button>
     </mat-card-header>
 
-    <img class="img1" mat-card-image [src]="mySource2" all="fotoIgla">
+    <div class="camila" *ngIf= "mySource2">
+      <img src="{{dio}}">
+     </div>
+     <div class="camila" *ngIf= "!mySource2">
+      <img id="fotoigla"src="{{igla}}">
+   </div>
 
     <mat-card-content class="cah">
       <h1>{{nome2}}</h1>
@@ -51,6 +65,11 @@
       <button id="like1" mat-button (click)="botaoLike2()">
         like
       </button>
+      <div *ngIf= "nome2">
+        oi!
+     </div>
+     <div *ngIf= "!nome2">
+     </div>
     </mat-card-actions>
     <div id="test"></div>
   </mat-card>
@@ -65,8 +84,12 @@
         <img class="fav" mat-card-image [src]="favorite3" alt="coracao3">
       </button>
     </mat-card-header>
-
-    <img class="img1" mat-card-image [src]="mySource3" alt="Arnaldofoto">
+    <div class="camila" *ngIf= "mySource3">
+      <img src="{{avanade}}">
+     </div>
+     <div class="camila" *ngIf= "!mySource3">
+      <img id="fotoarnaldo" src="{{arnaldo}}">
+   </div>
 
     <mat-card-content class="cah">
       <h1>{{nome3}}</h1>
@@ -77,6 +100,11 @@
       </button>
       <button id="like1" mat-button (click)="botaoLike3()">like
       </button>
+      <div *ngIf= "nome3">
+        oi!
+     </div>
+     <div *ngIf= "!nome3">
+     </div>
     </mat-card-actions>
     <div id="test"></div>
   </mat-card>
@@ -91,8 +119,12 @@
         <img class="fav" mat-card-image [src]="favorite4" alt="coracao4">
       </button>
     </mat-card-header>
-
-    <img class="img1" mat-card-image [src]="mySource4" alt="Rafaelfoto">
+    <div class="camila" *ngIf= "mySource4">
+      <img src="{{avanade}}">
+     </div>
+     <div class="camila" *ngIf= "!mySource4">
+      <img id="fotorafael" src="{{rafael}}">
+   </div>
 
     <mat-card-content class="cah">
       <h1>{{nome4}}</h1>
@@ -103,12 +135,15 @@
       </button>
       <button id="like1" mat-button (click)="botaoLike4()">like
       </button>
+      <div *ngIf= "nome4">
+        oi!
+     </div>
+     <div *ngIf= "!nome4">
+     </div>
     </mat-card-actions>
     <div id="test"></div>
   </mat-card>
 </mat-card>
 <mat-card class="barra"></mat-card>
-
-
 <p id="demo">
 </p>
