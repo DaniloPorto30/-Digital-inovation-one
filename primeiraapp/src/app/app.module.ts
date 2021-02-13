@@ -19,7 +19,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MeustepperComponent } from './Frontend/template/meustepper/meustepper.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import { AboutComponent } from './Frontend/template/about/about.component';
-
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 @NgModule({
@@ -45,15 +45,16 @@ import { AboutComponent } from './Frontend/template/about/about.component';
     MatGridListModule,
     MatButtonModule,
     MatProgressBarModule,
-    MatStepperModule
+    MatStepperModule,
+    MatExpansionModule
 
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-
+export class AppModule{
+  
 
 
  }

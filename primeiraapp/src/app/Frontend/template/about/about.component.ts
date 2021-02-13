@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   mySource: string = 'assets/img/porto.jpg';
 
-
+  panelOpenState = false;
   constructor() { }
 
   ngOnInit(): void {

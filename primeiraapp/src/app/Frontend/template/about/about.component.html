@@ -1,6 +1,6 @@
-<mat-progress-bar value="100"></mat-progress-bar>
+<mat-progress-bar class="prog" value="100"></mat-progress-bar>
 
-<mat-progress-bar mode="buffer"></mat-progress-bar>
+<mat-progress-bar class="prog" mode="buffer"></mat-progress-bar>
 
 <mat-card class="container-fluid">
 
@@ -19,32 +19,77 @@
 
     <button class="redesocia1" mat-icon-button>
       <a href="https://www.facebook.com/danilo.porto.798" target="_blank" rel="noopener">
-      <img class="face" mat-card-image src="assets/img/Facebook.png" alt="Facebook">
+        <img class="face" mat-card-image src="assets/img/Facebook.png" alt="Facebook">
       </a>
     </button>
     <button class="redesocia1" mat-icon-button>
       <a href="https://www.linkedin.com/in/danilo-portor/" target="_blank" rel="noopener">
-      <img class="linke" mat-card-image src="assets/img/linkedin1.png" alt="linkedin">
-    </a>
+        <img class="linke" mat-card-image src="assets/img/linkedin1.png" alt="linkedin">
+      </a>
     </button>
     <button class="redesocia1" mat-icon-button>
       <a href="https://www.instagram.com/dprosa_23/" target="_blank" rel="noopener">
-      <img class="insta" mat-card-image src="assets/img/insta1.png" alt="instagram">
-    </a>
+        <img class="insta" mat-card-image src="assets/img/insta1.png" alt="instagram">
+      </a>
     </button>
     <button class="redesocia1" mat-icon-button>
       <a href="https://github.com/DaniloPorto30/" target="_blank" rel="noopener">
-      <img class="git" mat-card-image src="assets/img/github.png" alt="github">
-    </a>
+        <img class="git" mat-card-image src="assets/img/github.png" alt="github">
+      </a>
     </button>
     <button class="redesocia1" mat-icon-button>
-      <a href="https://drive.google.com/file/d/1elCFqf8jfmd6wzYDfUC-NlR8RpaoGkMy/view?usp=sharing" target="_blank" rel="noopener">
+      <a href="https://drive.google.com/file/d/1elCFqf8jfmd6wzYDfUC-NlR8RpaoGkMy/view?usp=sharing" target="_blank"
+        rel="noopener">
         <img class="download" mat-card-image src="assets/img/downloadcv.png" alt="download">
       </a>
     </button>
   </mat-card>
 
+  <mat-accordion class="skills">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Bem-Vindo!
+        </mat-panel-title>
+        <mat-panel-description>
+
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>Programador Full Stack Jr</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Essa são minhas Skills:
+        </mat-panel-title>
+        <mat-panel-description>
+          I am Developer {{panelOpenState ? 'Full Stack' : 'Open'}}
+        </mat-panel-description>
+
+      </mat-expansion-panel-header>
+      <p>HTML</p>
+      <mat-progress-bar mode="determinate" value="78"></mat-progress-bar>
+      <p>CSS</p>
+      <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
+      <p>Java Script </p>
+      <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+      <p>Spring Boot</p>
+      <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+      <p>Angular</p>
+      <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+      <p>Java</p>
+      <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+    </mat-expansion-panel>
+  </mat-accordion>
+
 
 
 </mat-card>
-<a class="telwhat" href="https://wa.me/5519999595081?text=Bem%20vindo,%20fale%20Comigo!" style="position:fixed;width:60px;height:60px;bottom:90px;right:30px;background-color:#25d366;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;" target="_blank"><i style="margin-top:16px; color:white;" class="fa fa-whatsapp"></i></a>
+
+
+
+
+
+<a class="telwhat" href="https://wa.me/5519999595081?text=Bem%20vindo,%20fale%20Comigo!"
+  style="position:fixed;width:60px;height:60px;bottom:90px;right:30px;background-color:#25d366;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;"
+  target="_blank"><i style="margin-top:16px; color:white;" class="fa fa-whatsapp"></i></a>
