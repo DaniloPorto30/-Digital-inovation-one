@@ -25,7 +25,12 @@
   margin: 6px;
   font-size: 24px;
 }
+@media screen and (max-width: 1024px) {
 
+  span {
+    font-size: 26px;
+  }
+}
 @media screen and (max-width: 500px) {
   .logo {
     margin-right: 7px;

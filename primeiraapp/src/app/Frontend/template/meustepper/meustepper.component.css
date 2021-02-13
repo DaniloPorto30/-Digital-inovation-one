@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 mat-stepper-horizontal {
   background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
   margin-top: 8px;
@@ -82,4 +85,6 @@ mat-progress-bar {
     margin-left: -11px;
 
   }
+
+ 
 }

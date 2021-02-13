@@ -3,48 +3,55 @@
   width: 23em;
   display: inline-block;
   padding: 2em;
-
 }
 .container-fluid {
   display: flex;
   background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
   padding-bottom: 390px;
   max-height: 420em;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-.foto>img{
-  width: 25em;
-  height: 25em;
-  }
-  .texto , .foto{
-  display:grid;
+.foto > img {
+  width: 24em;
+  height: 24em;
+}
+.row-texto{
+margin-left: 20px;
+}
+.texto,
+.foto {
+  display: grid;
   justify-content: center;
   text-align: center;
-  }
-  #one{
+
+}
+#one {
   background-color: blueviolet;
   color: white;
   font-size: 28px;
   margin-top: 1em;
-  }
-  #like1 {
-    background-color: white;
-    color: indigo;
-    font-size: 28px;
-  }
-  .foto>a{
+}
+#like1 {
+  background-color: white;
+  color: indigo;
+  font-size: 28px;
+}
+.foto > a {
   padding-top: 2em;
-  color:red;
-  background-color: chartreuse;
-  padding:5px;
+  color: aliceblue;
+  background-color: indigo;
+  padding: 9px;
   margin-top: 1.2em;
-  }
+  flex-wrap: wrap;
+  width: auto;
+}
 
 .img1 {
   max-height: 80%;
   padding-bottom: 20px;
 }
-mat-card-title,mat-card-subtitle{
+mat-card-title,
+mat-card-subtitle {
   margin-left: 30px;
 }
 .coracao {
@@ -61,29 +68,53 @@ mat-card-title,mat-card-subtitle{
   width: 40px;
   padding-top: 20px;
 }
-.cah {
-  font-size: 1.4em;
-  color: rgb(15, 15, 15);
-}
 
 mat-progress-bar {
   color: orangered;
   background-color: orangered;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   .example-card {
     display: inline-block;
-    padding: 2em;
-    margin-left: -0.4em;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 100%;
+    padding-bottom: 60px;
+    margin: 2px;
+    justify-content: center;
+    width: 32em;
+    margin-bottom: 90px;
+    height: 35em;
   }
-  .photo1{
-    padding-top: -150px;
-    text-align: center;
-    margin-top: -50px;
+
+  .container-fluid {
+    padding: 0px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  #one {
+    margin-left: 110px;
+  }
+  mat-card-header>
+  mat-card-title
+  {
+    font-size: 21px;
+  }
+
+
+  mat-card-title,
+  mat-card-subtitle,
+  .coracao {
+    padding-left: 30px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .example-card {
+    display: inline-block;
+    padding-bottom: 50px;
+    margin: 2px;
+    justify-content: center;
+    width: 23em;
+    margin-bottom: 120px;
   }
   .container-fluid {
     padding: 0px;
@@ -92,26 +123,54 @@ mat-progress-bar {
     display: flex;
     width: 100%;
   }
+  #one {
+    margin-left: 50px;
+  }
+  mat-card-title,
+  mat-card-subtitle,
+  .coracao {
+    padding-left: 30px;
+  }
+
+}
+@media screen and (max-width: 414px) {
+  .row-texto {
+    margin-left:-80px;
+
+  }
+}
+@media screen and (max-width: 540px) {
+  .example-card {
+    display: inline-block;
+    padding: 2em;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-fluid {
+    padding: 0px;
+    width: 27.7em;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+  }
 
   .barra {
     height: 50px;
   }
-  .cah{
-    padding-bottom: 10px;
-  }
-  .camila{
-    max-width: 100%;
-  }
-  .camila>img{
-    max-height: 25em;
-    max-width: 32em;
-    padding: 0px;
-    margin-left: 2.3em;
-  }
-  mat-card-title, mat-card-subtitle, .coracao{
-    padding-left: 30px;
+  #one {
+    margin-left: 130px;
   }
 
+  mat-card-title,
+  mat-card-subtitle,
+  .coracao {
+    padding-left: 30px;
+  }
+  .foto > img {
+    margin-left: 7px;
+  }
 }
 @media screen and (max-width: 375px) {
   .example-card {
@@ -122,36 +181,52 @@ mat-progress-bar {
     width: 100%;
     max-height: 100%;
   }
-  .photo1{
-    padding-top: -150px;
-    text-align: center;
-    margin-top: -50px;
-  }
+
   .container-fluid {
     padding: 0px;
-    max-width: 25.7em;
+    max-width: 27em;
     flex-wrap: wrap;
     display: flex;
     width: 100%;
   }
+
   .barra {
     height: 50px;
   }
-  .camila{
-    max-width: 100%;
+  #one {
+    margin-left: 50px;
   }
-  .camila>img{
-    max-height: 22em;
-    max-width: 30em;
-    padding: 0px;
-    margin-left: 1.1em;
-  }
-  .cah{
-    padding-bottom: 10px;
-  }
-  mat-card-title, mat-card-subtitle, .coracao{
+  mat-card-title,
+  mat-card-subtitle,
+  .coracao {
     padding-left: 30px;
+  }
+  .foto > img {
+    margin-left: 3px;
+  }
+  .row-texto{
+    margin-left: -3px;
+   }
+}
+@media screen and (max-width: 280px) {
+  .foto > img {
+    width: 18em;
+    height: 20em;
+    margin-left: 3px;
+  }
+  #one{
+    margin-left: 22px ;
   }
 
 }
-
+@media screen and (max-width: 320px) {
+  .foto > img {
+    width: 18em;
+    height: 20em;
+    margin-left: 3px;
+  }
+ #one, #like1{
+   height: 42px;
+   font-size: 22px;
+ }
+}
