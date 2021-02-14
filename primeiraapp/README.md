@@ -1,27 +1,38 @@
 # Primeiraapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
-## Development server
+# BootCamp Avanade Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Nesse projeto foi desenvolvido uma Single Page Aplication ( SPA ).<br> 
+#Visite o site com o projeto hospedado.😉🌐<br>
+https://bootcamp-avanadeangular.netlify.app/meustepper
 
-## Code scaffolding
+- O Tema do projeto SPA é BootCamp Avanade Angular.💻<br>
+o tema foi pensado para mostrar as diferentes etapas do BootCampAvanade Angular que os participantes devem percorrer para garantir uma tão sonhada vaga.💡<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+----------------
+#[1] A pagina Home do projeto mostra os participantes da live do lançamento do BootCamp Angular Avanade " Camila, Iglá, Arnaldo, Rafael Orofino ".🚀<br>
 
-## Build
+![alt text](https://github.com/DaniloPorto30/Digital-inovation-one/blob/master/primeiraapp/home1.png?raw=true)<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+----------------
+#[2] A pagina Selection mostra as etapas do BootCamp Avanade Angular: <br>
+- Primeira etapa inscrição na plataforma da Digital Inivation One.
+- Segunda etapa é comclusão do BootCamp.
+- Terceira etapa é aguardar pela entrevista.
+- Quarta etapa é receber as boas vindas na Avanade.🏆<br>
 
-## Running unit tests
+![alt text](https://github.com/DaniloPorto30/Digital-inovation-one/blob/master/primeiraapp/selection.png?raw=true)<br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+--------------
+[3] A pagina About mostra meu perfil e minhas habilidades como desenvolvedor.📚✔<br>
 
-## Running end-to-end tests
+![alt text](https://github.com/DaniloPorto30/Digital-inovation-one/blob/master/primeiraapp/about1.png?raw=true)<br>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+---------
 
-## Further help
+#informações:📌
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Foi utilizado :💻 HTML / CSS / TYPE SCRIPT.

@@ -15,12 +15,12 @@
     </mat-card-header>
 
     <div class="foto" *ngIf="mySource" alt="1">
-      <img src="{{avanade}}">
-      <a>{{nome}}</a>
+      <img [src]="avanade">
+      <a>{{ nome }}</a>
     </div>
 
     <div class="foto" *ngIf="!mySource" alt="2">
-      <img src="{{camila}}" alt="foto">
+      <img [src]="camila" alt="foto">
     </div>
 
     <mat-card-actions class="row-texto">
@@ -45,11 +45,11 @@
       </button>
     </mat-card-header>
     <div class="foto" *ngIf="mySource2" alt="1">
-      <img src="{{dio}}">
-      <a>{{nome2}}</a>
+      <img [src]="dio">
+      <a>{{ nome2 }}</a>
     </div>
     <div class="foto" *ngIf="!mySource2" alt="2">
-      <img src="{{igla}}" alt="foto">
+      <img [src]="igla" alt="foto">
     </div>
 
     <mat-card-actions class="row-texto">
@@ -74,11 +74,11 @@
       </button>
     </mat-card-header>
     <div class="foto" *ngIf="mySource3" alt="1">
-      <img src="{{avanade}}">
-      <a>{{nome3}}</a>
+      <img [src]="avanade">
+      <a>{{ nome3 }}</a>
     </div>
     <div class="foto" *ngIf="!mySource3" alt="2">
-      <img src="{{arnaldo}}" alt="foto">
+      <img [src]="arnaldo" alt="foto">
     </div>
     <mat-card-actions class="row-texto">
       <button id="one" mat-button (click)="onBotaoPhoto3()">
@@ -102,11 +102,11 @@
       </button>
     </mat-card-header>
     <div class="foto" *ngIf="mySource4" alt="1">
-      <img src="{{avanade}}">
-      <a>{{nome4}}</a>
+      <img src="{{ avanade }}">
+      <a>{{ nome4 }}</a>
     </div>
     <div class="foto" *ngIf="!mySource4" alt="2">
-      <img src="{{rafael}}" alt="foto">
+      <img src="{{ rafael }}" alt="foto">
     </div>
     <mat-card-actions class="row-texto">
       <button id="one" mat-button (click)="onBotaoPhoto4()">

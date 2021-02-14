@@ -7,7 +7,7 @@
 .container-fluid {
   display: flex;
   background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
-  padding-bottom: 390px;
+  padding-bottom: 320px;
   max-height: 420em;
   justify-content: space-between;
 }
