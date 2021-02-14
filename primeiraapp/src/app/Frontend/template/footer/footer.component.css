@@ -42,11 +42,10 @@
   }
 }
 @media screen and (max-width: 1024px) {
-
   span {
     font-size: 26px;
   }
-  .orange{
+  .orange {
     font-size: 28px;
   }
 }
@@ -57,12 +56,12 @@
     padding-top: 10px;
     font-size: 18px;
   }
-  .orange{
+  .orange {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 280px) {
- .footer{
+  .footer {
     height: 100px;
   }
 }

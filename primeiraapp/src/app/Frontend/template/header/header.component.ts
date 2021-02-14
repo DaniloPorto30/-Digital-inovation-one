@@ -1,18 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'spa-header',
   templateUrl: '../header/header.component.html',
-  styleUrls: ['../header/header.component.css']
+  styleUrls: ['../header/header.component.css'],
 })
-
 export class HeaderComponent implements OnInit {
+  constructor() {}
 
-
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

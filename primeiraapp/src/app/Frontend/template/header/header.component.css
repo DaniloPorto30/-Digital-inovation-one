@@ -8,7 +8,6 @@
   max-height: 52px;
   margin-right: 20px;
 }
-
 .example-spacer {
   flex: 1 1 auto;
 }
@@ -19,14 +18,12 @@
   padding: 3px;
   background: linear-gradient(to right, #ee8742, #ca281d, #f3ef1e);
 }
-
 .menu button {
   background-color: blueviolet;
   margin: 6px;
   font-size: 24px;
 }
 @media screen and (max-width: 1024px) {
-
   span {
     font-size: 26px;
   }

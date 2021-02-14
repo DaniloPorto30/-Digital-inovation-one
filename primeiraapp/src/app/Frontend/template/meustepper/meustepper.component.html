@@ -3,28 +3,25 @@
 <mat-progress-bar mode="buffer"></mat-progress-bar>
 
 <mat-horizontal-stepper class="container">
-  <mat-step  id="um"label="Primeira Etapa" state="phone">
-    <h3>BootCamp Dio.</h3>
-    <img id="img1" mat-card-image src="assets/img/banner.png"
-      alt="Digital Inivation One"> <img class="cod" mat-card-image src="/assets/img/qrcode1.png" id="foto1">
-  </mat-step>
 
-  <mat-step  id="dois" label="Segunda Etapa" state="chat">
+  <!---------Etapas do Stepper------------>
+  <mat-step id="um" label="Primeira Etapa" state="phone">
+    <h3>BootCamp Dio.</h3>
+    <img id="img1" mat-card-image src="assets/img/banner.png" alt="Digital Inivation One"> <img class="cod"
+      mat-card-image src="/assets/img/qrcode1.png" id="foto1">
+  </mat-step>
+  <mat-step id="dois" label="Segunda Etapa" state="chat">
     <h3>Concluir o BootCamp.</h3>
     <img id="img4" mat-card-image src="assets/img/diploma.png" alt="Diploma">
   </mat-step>
-
-  <mat-step  id="ter" label="Terceira Etapa" state="chat">
+  <mat-step id="ter" label="Terceira Etapa" state="chat">
     <h3>Entrevista Avanade. <mat-icon id="fav">thumb_up</mat-icon>
     </h3>
-    <img id="img2" mat-card-image
-      src="assets/img/arnaldo.png"
-      alt="Entrevista">
+    <img id="img2" mat-card-image src="assets/img/arnaldo.png" alt="Entrevista">
   </mat-step>
-
   <mat-step id="qua" label="Quarta Etapa">
     <h3>Welcome Avanade.</h3>
-    <img id='img4'mat-card-image src="/assets/img/benvindo.jpg" alt="Welcome Avanade">
+    <img id='img4' mat-card-image src="/assets/img/benvindo.jpg" alt="Welcome Avanade">
   </mat-step>
 
   <!-- Icon overrides. -->
@@ -34,7 +31,6 @@
   <ng-template matStepperIcon="chat">
     <mat-icon>forum</mat-icon>
   </ng-template>
-
 </mat-horizontal-stepper>
 <router-outlet>
 </router-outlet>

@@ -2,6 +2,9 @@
 <mat-progress-bar mode="buffer"></mat-progress-bar>
 
 <mat-card class="container-fluid">
+
+   <!---------Primeiro card Camila------------>
+
   <mat-card class="example-card">
     <mat-card-header>
       <mat-card-title>Camila Ferreira Ribeiro</mat-card-title>
@@ -11,20 +14,19 @@
       </button>
     </mat-card-header>
 
-    <div class="foto" *ngIf= "mySource" alt="1">
+    <div class="foto" *ngIf="mySource" alt="1">
       <img src="{{avanade}}">
       <a>{{nome}}</a>
-     </div>
+    </div>
 
-     <div class="foto" *ngIf= "!mySource" alt="2">
+    <div class="foto" *ngIf="!mySource" alt="2">
       <img src="{{camila}}" alt="foto">
-   </div>
+    </div>
 
     <mat-card-actions class="row-texto">
       <button id="one" mat-button (click)="onBotaoPhoto()">
         Quem Sou!?
       </button>
-
       <button id="like1" mat-button (click)="botaoLike()">
         like
       </button>
@@ -32,7 +34,7 @@
     <div id="test"></div>
   </mat-card>
 
-  <!---------Segundo card------------>
+  <!---------Segundo card Iglá------------>
 
   <mat-card class="example-card">
     <mat-card-header>
@@ -42,21 +44,18 @@
         <img class="fav" mat-card-image [src]="favorite2" alt="coracao2">
       </button>
     </mat-card-header>
-
-    <div class="foto" *ngIf= "mySource2" alt="1">
+    <div class="foto" *ngIf="mySource2" alt="1">
       <img src="{{dio}}">
       <a>{{nome2}}</a>
-     </div>
-
-     <div class="foto" *ngIf= "!mySource2" alt="2">
+    </div>
+    <div class="foto" *ngIf="!mySource2" alt="2">
       <img src="{{igla}}" alt="foto">
-   </div>
+    </div>
 
     <mat-card-actions class="row-texto">
       <button id="one" mat-button (click)="onBotaoPhoto2()">
         Quem Sou!?
       </button>
-
       <button id="like1" mat-button (click)="botaoLike2()">
         like
       </button>
@@ -64,7 +63,7 @@
     <div id="test"></div>
   </mat-card>
 
-  <!---------Terceiro card------------>
+  <!---------Terceiro card Arnaldo------------>
 
   <mat-card class="example-card">
     <mat-card-header>
@@ -74,20 +73,17 @@
         <img class="fav" mat-card-image [src]="favorite3" alt="coracao3">
       </button>
     </mat-card-header>
-    <div class="foto" *ngIf= "mySource3" alt="1">
+    <div class="foto" *ngIf="mySource3" alt="1">
       <img src="{{avanade}}">
       <a>{{nome3}}</a>
-     </div>
-
-     <div class="foto" *ngIf= "!mySource3" alt="2">
+    </div>
+    <div class="foto" *ngIf="!mySource3" alt="2">
       <img src="{{arnaldo}}" alt="foto">
-   </div>
-
+    </div>
     <mat-card-actions class="row-texto">
       <button id="one" mat-button (click)="onBotaoPhoto3()">
         Quem Sou!?
       </button>
-
       <button id="like1" mat-button (click)="botaoLike3()">
         like
       </button>
@@ -95,7 +91,7 @@
     <div id="test"></div>
   </mat-card>
 
-  <!---------Quarto card------------>
+  <!---------Quarto card Rafael------------>
 
   <mat-card class="example-card">
     <mat-card-header>
@@ -105,27 +101,22 @@
         <img class="fav" mat-card-image [src]="favorite4" alt="coracao4">
       </button>
     </mat-card-header>
-    <div class="foto" *ngIf= "mySource4" alt="1">
+    <div class="foto" *ngIf="mySource4" alt="1">
       <img src="{{avanade}}">
       <a>{{nome4}}</a>
-     </div>
-
-     <div class="foto" *ngIf= "!mySource4" alt="2">
+    </div>
+    <div class="foto" *ngIf="!mySource4" alt="2">
       <img src="{{rafael}}" alt="foto">
-   </div>
-
+    </div>
     <mat-card-actions class="row-texto">
       <button id="one" mat-button (click)="onBotaoPhoto4()">
         Quem Sou!?
       </button>
-
-      <button id="like1" mat-button (click)="botaoLike4()">
+      <button id="like4" mat-button (click)="botaoLike4()">
         like
       </button>
     </mat-card-actions>
-    <div id="test"></div>
   </mat-card>
 </mat-card>
-<mat-card class="barra"></mat-card>
-<p id="demo">
-</p>
+
+

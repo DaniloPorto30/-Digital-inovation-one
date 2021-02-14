@@ -15,15 +15,17 @@
   width: 24em;
   height: 24em;
 }
-.row-texto{
-margin-left: 20px;
+.row-texto {
+  margin-left: 20px;
+}
+.row-texto > #like4 {
+  margin-bottom: 4em;
 }
 .texto,
 .foto {
   display: grid;
   justify-content: center;
   text-align: center;
-
 }
 #one {
   background-color: blueviolet;
@@ -31,7 +33,8 @@ margin-left: 20px;
   font-size: 28px;
   margin-top: 1em;
 }
-#like1 {
+#like1,
+#like4 {
   background-color: white;
   color: indigo;
   font-size: 28px;
@@ -45,7 +48,6 @@ margin-left: 20px;
   flex-wrap: wrap;
   width: auto;
 }
-
 .img1 {
   max-height: 80%;
   padding-bottom: 20px;
@@ -60,7 +62,6 @@ mat-card-subtitle {
   color: indigo;
   padding-right: 50px;
 }
-
 .fav {
   color: rgb(110, 26, 173);
   font-size: 31px;
@@ -68,12 +69,10 @@ mat-card-subtitle {
   width: 40px;
   padding-top: 20px;
 }
-
 mat-progress-bar {
   color: orangered;
   background-color: orangered;
 }
-
 @media screen and (max-width: 1024px) {
   .example-card {
     display: inline-block;
@@ -84,7 +83,6 @@ mat-progress-bar {
     margin-bottom: 90px;
     height: 35em;
   }
-
   .container-fluid {
     padding: 0px;
     flex-wrap: wrap;
@@ -93,19 +91,14 @@ mat-progress-bar {
   #one {
     margin-left: 110px;
   }
-  mat-card-header>
-  mat-card-title
-  {
+  mat-card-header > mat-card-title {
     font-size: 21px;
   }
-
-
   mat-card-title,
   mat-card-subtitle,
   .coracao {
     padding-left: 30px;
   }
-
 }
 @media screen and (max-width: 768px) {
   .example-card {
@@ -131,12 +124,10 @@ mat-progress-bar {
   .coracao {
     padding-left: 30px;
   }
-
 }
 @media screen and (max-width: 414px) {
   .row-texto {
-    margin-left:-80px;
-
+    margin-left: -80px;
   }
 }
 @media screen and (max-width: 540px) {
@@ -147,7 +138,6 @@ mat-progress-bar {
     width: 100%;
     height: 100%;
   }
-
   .container-fluid {
     padding: 0px;
     width: 27.7em;
@@ -155,14 +145,12 @@ mat-progress-bar {
     display: flex;
     width: 100%;
   }
-
   .barra {
     height: 50px;
   }
   #one {
     margin-left: 130px;
   }
-
   mat-card-title,
   mat-card-subtitle,
   .coracao {
@@ -181,7 +169,6 @@ mat-progress-bar {
     width: 100%;
     max-height: 100%;
   }
-
   .container-fluid {
     padding: 0px;
     max-width: 27em;
@@ -189,7 +176,6 @@ mat-progress-bar {
     display: flex;
     width: 100%;
   }
-
   .barra {
     height: 50px;
   }
@@ -204,9 +190,9 @@ mat-progress-bar {
   .foto > img {
     margin-left: 3px;
   }
-  .row-texto{
+  .row-texto {
     margin-left: -3px;
-   }
+  }
 }
 @media screen and (max-width: 280px) {
   .foto > img {
@@ -214,10 +200,9 @@ mat-progress-bar {
     height: 20em;
     margin-left: 3px;
   }
-  #one{
-    margin-left: 22px ;
+  #one {
+    margin-left: 22px;
   }
-
 }
 @media screen and (max-width: 320px) {
   .foto > img {
@@ -225,8 +210,9 @@ mat-progress-bar {
     height: 20em;
     margin-left: 3px;
   }
- #one, #like1{
-   height: 42px;
-   font-size: 22px;
- }
+  #one,
+  #like1 {
+    height: 42px;
+    font-size: 22px;
+  }
 }
