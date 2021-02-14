@@ -16,10 +16,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
-import { MeustepperComponent } from './Frontend/template/meustepper/meustepper.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import { AboutComponent } from './Frontend/template/about/about.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { SelectionComponent } from './Frontend/template/selection/selection.component';
 
 
 @NgModule({
@@ -28,10 +28,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     HomeComponent,
     FooterComponent,
     HeaderComponent,
-    MeustepperComponent,
-    AboutComponent
-
-
+    AboutComponent,
+    SelectionComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +52,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
   bootstrap: [AppComponent]
 })
 export class AppModule{
-  
+
 
 
  }
