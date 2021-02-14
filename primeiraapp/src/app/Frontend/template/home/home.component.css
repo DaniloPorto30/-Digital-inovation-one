@@ -89,7 +89,7 @@ mat-progress-bar {
     display: flex;
   }
   #one {
-    margin-left: 110px;
+    margin-left: 80px;
   }
   mat-card-header > mat-card-title {
     font-size: 21px;
@@ -117,7 +117,7 @@ mat-progress-bar {
     width: 100%;
   }
   #one {
-    margin-left: 50px;
+    margin-left: 10px;
   }
   mat-card-title,
   mat-card-subtitle,

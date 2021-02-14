@@ -2,7 +2,7 @@
   text-decoration: none;
 }
 
-.footer {
+.footer{
   position: fixed;
   bottom: 0;
   display: flex;
@@ -17,7 +17,7 @@
   vertical-align: sub;
   padding-top: 2px;
 }
-.orange {
+.orange{
   color: orangered;
   font-size: 1.2rem;
 }
@@ -25,43 +25,50 @@
 @media screen and (max-width: 380px) {
   .footer {
     text-align: center;
-    height: 70px;
+    height: 4em;
     padding-top: 10px;
     font-size: 18px;
+    display: flex;
   }
 }
 @media screen and (max-width: 320px) {
   .footer {
     text-align: center;
-    height: 70px;
+    height: 4em;
     padding-top: 10px;
     font-size: 9px;
+    display: flex;
   }
   span {
     font-size: 11px;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 1024px) {
+
   span {
     font-size: 26px;
+    flex-wrap: wrap;
   }
-  .orange {
+  .orange{
     font-size: 28px;
   }
 }
 @media screen and (max-width: 540px) {
   .footer {
     text-align: center;
-    height: 70px;
+    height: 4em;
     padding-top: 10px;
     font-size: 18px;
+    display: flex;
   }
-  .orange {
+  .orange{
     font-size: 28px;
   }
 }
 @media screen and (max-width: 280px) {
-  .footer {
-    height: 100px;
+ .footer{
+    height: 6em;
+    display: flex;
   }
 }
