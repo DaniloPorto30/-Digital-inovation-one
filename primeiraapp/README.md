@@ -20,7 +20,7 @@ o tema foi pensado para mostrar as diferentes etapas do BootCampAvanade Angular 
 ----------------
 #[2] A pagina Selection mostra as etapas do BootCamp Avanade Angular: <br>
 - Primeira etapa inscrição na plataforma da Digital Inivation One.
-- Segunda etapa é comclusão do BootCamp.
+- Segunda etapa é conclusão do BootCamp.
 - Terceira etapa é aguardar pela entrevista.
 - Quarta etapa é receber as boas vindas na Avanade.🏆<br>
 
