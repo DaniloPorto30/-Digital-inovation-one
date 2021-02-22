@@ -21,7 +21,6 @@ import { AboutComponent } from './Frontend/template/about/about.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { SelectionComponent } from './Frontend/template/selection/selection.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +43,8 @@ import { SelectionComponent } from './Frontend/template/selection/selection.comp
     MatButtonModule,
     MatProgressBarModule,
     MatStepperModule,
-    MatExpansionModule
+    MatExpansionModule,
+
 
 
   ],

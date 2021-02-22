@@ -13,7 +13,6 @@
   max-height: 420em;
   justify-content: flex-start;
 }
-
 .img1 {
   max-height: 95%;
   padding-bottom: 20px;
@@ -27,7 +26,6 @@ button {
   margin-left: 5px;
   font-size: 34px;
 }
-
 .prog {
   color: orangered;
   background-color: orangered;
@@ -41,7 +39,6 @@ button {
   padding: 15px;
   margin-left: 10px;
 }
-
 .skills {
   margin: 20px;
 }

@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
   align-items: center;
@@ -23,6 +24,11 @@
   margin: 6px;
   font-size: 24px;
 }
+.menu button:hover {
+ color: rgb(248, 228, 228);
+  background-color:rgb(176, 125, 224) ;
+}
+
 @media screen and (max-width: 1024px) {
   span {
     font-size: 26px;
